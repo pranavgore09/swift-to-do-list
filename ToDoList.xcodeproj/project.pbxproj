@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81662B481B2419B400C589C4 /* MasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81662B471B2419B400C589C4 /* MasterTableViewController.swift */; };
+		81662B4A1B241A4800C589C4 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81662B491B241A4800C589C4 /* AddViewController.swift */; };
+		81662B4C1B241A7800C589C4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81662B4B1B241A7800C589C4 /* DetailViewController.swift */; };
 		81DE0F911B22331F000966B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DE0F901B22331F000966B4 /* AppDelegate.swift */; };
 		81DE0F931B22331F000966B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DE0F921B22331F000966B4 /* ViewController.swift */; };
 		81DE0F961B22331F000966B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81DE0F941B22331F000966B4 /* Main.storyboard */; };
@@ -26,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		81662B471B2419B400C589C4 /* MasterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterTableViewController.swift; sourceTree = "<group>"; };
+		81662B491B241A4800C589C4 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		81662B4B1B241A7800C589C4 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		81DE0F8B1B22331F000966B4 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81DE0F8F1B22331F000966B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81DE0F901B22331F000966B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +84,9 @@
 			isa = PBXGroup;
 			children = (
 				81DE0F901B22331F000966B4 /* AppDelegate.swift */,
+				81662B471B2419B400C589C4 /* MasterTableViewController.swift */,
+				81662B491B241A4800C589C4 /* AddViewController.swift */,
+				81662B4B1B241A7800C589C4 /* DetailViewController.swift */,
 				81DE0F921B22331F000966B4 /* ViewController.swift */,
 				81DE0F941B22331F000966B4 /* Main.storyboard */,
 				81DE0F971B22331F000966B4 /* Images.xcassets */,
@@ -213,6 +222,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				81DE0F931B22331F000966B4 /* ViewController.swift in Sources */,
+				81662B481B2419B400C589C4 /* MasterTableViewController.swift in Sources */,
+				81662B4C1B241A7800C589C4 /* DetailViewController.swift in Sources */,
+				81662B4A1B241A4800C589C4 /* AddViewController.swift in Sources */,
 				81DE0F911B22331F000966B4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,8 +353,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ToDoList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -351,8 +365,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ToDoList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -409,6 +425,7 @@
 				81DE0FAC1B22331F000966B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81DE0FAD1B22331F000966B4 /* Build configuration list for PBXNativeTarget "ToDoListTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +434,7 @@
 				81DE0FAF1B22331F000966B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
